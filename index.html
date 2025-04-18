@@ -5,41 +5,42 @@
 
         <head>
                 <title>Form template</title>
+                <link rel="stylesheet" href="index.css" type="text/css">
         </head>
 
 
         <body>
 
-                <p><b>Complete this form to create an account</b></p>
+                <p class="parraph"><b>Complete this form to create an account</b></p>
 
                 <br/>
 
                 <fieldset>
                         <legend><b>Contact data</b></legend>
                         <form action="accountcreated.html">
-                                <label><i>Name</i></label> 
+                                <label class="formlabel"><i>Name</i></label> 
                                 <input />
 
-                                <label><i>Surname</i></label> 
-                                <input />
-
-                                <br /> 
-                                <br />
-
-                                <label><i>Email</i></label> 
+                                <label class="formlabel"><i>Surname</i></label> 
                                 <input />
 
                                 <br /> 
                                 <br />
 
-                                <label><i>Comments</i></label> 
+                                <label class="formlabel"><i>Email</i></label> 
+                                <input />
+
+                                <br /> 
+                                <br />
+
+                                <label class="formlabel"><i>Comments</i></label> 
                                 <textarea>
                                 </textarea>
 
                                 <br /> 
                                 <br />
 
-                                <button>Confirm</button>
+                                <button id="confirmbutton">Confirm</button>
 
                                 
                         </form>

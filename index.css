@@ -1,0 +1,21 @@
+
+body {
+        background-color: #eeeeee;
+}
+
+#confirmbutton {
+        color: blue;
+        font-weight: bold;
+}
+
+
+.parraph {
+
+        color: rgb(1, 1, 4);
+}
+
+
+.formlabel {
+        color: rgb(1, 1, 4);
+        font-style: italic;
+}
